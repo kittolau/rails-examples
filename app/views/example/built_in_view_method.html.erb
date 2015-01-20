@@ -1,0 +1,62 @@
+<!-- 將\n換行字元換成HTML的<br>標籤-->
+  <%= simple_format(@event.description) %>
+
+<!-- sanitize HTML tag -->
+  sanitize
+  <!--
+  預設允許的HTML標籤和屬性如下：
+  ActionView::Base.sanitized_allowed_tags
+  => #<Set: {"strong", "em", "b", "i", "p", "code", "pre", "tt", "samp", "kbd", "var", "sub", "sup", "dfn", "cite", "big", "small", "address", "hr", "br", "div", "span", "h1", "h2", "h3", "h4", "h5", "h6", "ul", "ol", "li", "dl", "dt", "dd", "abbr", "acronym", "a", "img", "blockquote", "del", "ins"}>
+  ActionView::Base.sanitized_allowed_attributes
+  => #<Set: {"href", "src", "width", "height", "alt", "cite", "datetime", "title", "class", "name", "xml:lang", "abbr"}>
+  如果需要增加，可以在config/application.rb中新增，例如：
+
+  config.action_view.sanitized_allowed_tags = %w[table tr td]
+  config.action_view.sanitized_allowed_attributes = "rel"
+  -->
+
+<!--
+Returns a link tag that browsers and feed readers can use to auto-detect an RSS or Atom feed.
+he type can either be :rss (default) or :atom.
+Control the link options in url_for format using the url_options.
+ You can modify the LINK tag itself in tag_options.
+ -->
+  auto_discovery_link_tag
+  # => <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.currenthost.com/controller/action" />
+  auto_discovery_link_tag(:atom)
+  # => <link rel="alternate" type="application/atom+xml" title="ATOM" href="http://www.currenthost.com/controller/action" />
+  auto_discovery_link_tag(:rss, {action: "feed"})
+  # => <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.currenthost.com/controller/feed" />
+  auto_discovery_link_tag(:rss, {action: "feed"}, {title: "My RSS"})
+  # => <link rel="alternate" type="application/rss+xml" title="My RSS" href="http://www.currenthost.com/controller/feed" />
+  auto_discovery_link_tag(:rss, {controller: "news", action: "feed"})
+  # => <link rel="alternate" type="application/rss+xml" title="RSS" href="http://www.currenthost.com/news/feed" />
+  auto_discovery_link_tag(:rss, "http://www.example.com/feed.rss", {title: "Example RSS"})
+  # => <link rel="alternate" type="application/rss+xml" title="Example RSS" href="http://www.example.com/feed" />
+
+<!-- used to debug-->
+  <%= debug(@event) %>
+
+<!-- time distance -->
+  distance_of_time_in_words(Time.now, Time.now + 60.minutes)
+   => "about 1 hour"
+   distance_of_time_in_words_to_now(Time.now - 1.second)
+  => "less than a minute"
+
+<!-- HTML5 time tag -->
+  time_tag(Time.now)
+  => "<time datetime=\"2014-11-03T23:55:11+08:00\">November 03, 2014 23:55</time>"
+
+<!-- number -->
+  helper.number_with_precision(123.4567, precision: 2)
+  => "123.46"
+  helper.number_with_delimiter(1234567)
+  => "1,234,567"
+
+<!-- Html tag -->
+  tag
+  content_tag
+
+<!-- remove tags -->
+  strip_tags
+  strip_links

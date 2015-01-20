@@ -1,0 +1,14 @@
+<!-- the method closed?()-->
+<% if @event.closed? %>
+    <%= link_to '[Open]', state_path(@event), :method => :post %>
+<% else %>
+    <%= link_to '[Close]', state_path(@event), :method => :delete %>
+ <% end %>
+
+<!-- try the display if category is not nil -->
+@event.category.try(:name)
+
+<!-- for each -->
+<% @event.groups.each do |g| %>
+  <%= g.name %>
+<% end %>

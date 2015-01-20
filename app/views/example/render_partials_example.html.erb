@@ -1,0 +1,32 @@
+<!-- Render Partials -->
+  <!-- 局部樣板可以將Template中重複的程式碼抽出來，例如我們在Part1中示範過的新增和編輯的表單。
+  Partial Template的命名慣例是底線開頭，但是呼叫時不需加上底線，例如： -->
+  <%= render :partial => "common/nav" %>
+  <!-- 在這個情境下，可以省略:partial鍵： -->
+  <%= render "common/nav" %>
+  <!-- 這樣便會使用app/views/common/_nav.html.erb這個樣板。
+  如果使用Partial的樣板和Partial所在的目錄相同，可以省略第一段的common路徑。 -->
+
+<!-- Render Partials with Variable-->
+  <!-- 在Partial樣板中是可以直接使用實例變數的(也就是@開頭的變數)。
+  不過好的實務作法是透過:locals明確傳遞區域變數，這樣程式會比較清楚，Partial樣板也比較容易被重複使用： -->
+  <%= render :partial => "common/nav", :locals => { :a => 1, :b => 2 } %>
+  <!-- 在這個情境下，也可以進一步把locals鍵也省略： -->
+  <%= render "common/nav", :a => 1, :b => 2 %>
+  <!-- 這樣在partial樣板中，就可以存取到區域變數a和b。 -->
+
+<!-- Render Partials with Collection-->
+  <!--   如果是陣列的資料，像是tr或li這類會一直重複的Template元素，
+  我們可以使用collection參數來處理，例如像以下的程式： -->
+  <ul>
+    <% @people.each do |person| %>
+        <%= render :partial => "person", :locals => { :person => person } %>
+    <% end %>
+  <ul>
+  <!--   我們可以改寫成使用collection參數來支援陣列形式： -->
+  <ul>
+      <%= render :partial => "person", :collection => @people, :as => :person %>
+  <ul>
+  <!--   在_person.html.erb這個partial中，會有一個額外的索引變數person_counter紀錄編號。 -->
+  <!--   使用collection的好處不只是少打字而已，
+  還有執行效能上的大大改善，Rails內部會針對這種形式做執行效率最佳化。 -->

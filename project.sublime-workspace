@@ -1,0 +1,817 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"pos",
+				"post_sources"
+			],
+			[
+				"post_s",
+				"post_source_id"
+			],
+			[
+				"post",
+				"post_sources_id"
+			],
+			[
+				"posts",
+				"post_sources"
+			],
+			[
+				"event",
+				"event_groupships"
+			],
+			[
+				"border-t",
+				"border-top-width"
+			],
+			[
+				"rg",
+				"rgba()"
+			],
+			[
+				"ani",
+				"anim-	animation: ${1:name} ${2:duration} ${3:timing-function} ${4:delay} ${5:iteration-count} ${6:direction} ${7:fill-mode};"
+			],
+			[
+				"tran",
+				"transition"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/call_back_example.rb",
+			"settings":
+			{
+				"buffer_size": 1446,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 337.0,
+		"selected_items":
+		[
+			[
+				"set syn ru",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set syn ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"set synry",
+				"Set Syntax: Ruby"
+			],
+			[
+				"listpa",
+				"Package Control: List Packages"
+			],
+			[
+				"packin",
+				"Package Control: Install Package"
+			],
+			[
+				"installp",
+				"Package Control: Install Package"
+			],
+			[
+				"package instal",
+				"Package Control: Install Package"
+			],
+			[
+				"packint",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"packin	",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"list pa",
+				"Package Control: List Packages"
+			],
+			[
+				"dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"enable",
+				"Package Control: Enable Package"
+			],
+			[
+				"remove pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"packare",
+				"Package Control: Remove Package"
+			],
+			[
+				"instal p",
+				"Package Control: Install Package"
+			],
+			[
+				"disable",
+				"Package Control: Disable Package"
+			],
+			[
+				"disabl",
+				"Package Control: Disable Package"
+			],
+			[
+				"package insall",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"packinsta",
+				"Package Control: Install Package"
+			],
+			[
+				"list p",
+				"Package Control: List Packages"
+			],
+			[
+				"set syn pyt",
+				"Set Syntax: Python"
+			],
+			[
+				"set sy json",
+				"Set Syntax: JSON"
+			],
+			[
+				"set syn javas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"set synjavas",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"package list",
+				"Package Control: List Packages"
+			],
+			[
+				"set sscss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"set syn scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"Snippet: ",
+				"Snippet: @import"
+			],
+			[
+				"setting",
+				"Preferences: Settings - Default"
+			],
+			[
+				"pack contro list",
+				"Package Control: List Packages"
+			],
+			[
+				"packa list ",
+				"Package Control: List Packages"
+			],
+			[
+				"packa control list",
+				"Package Control: List Packages"
+			],
+			[
+				"set sy scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"set syjava",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"list P",
+				"Package Control: List Packages"
+			],
+			[
+				"Disable p",
+				"Package Control: Disable Package"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			],
+			[
+				"INSTALL",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"control in",
+				"Package Control: Install Package"
+			],
+			[
+				"packcont ins",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"HTML: Wrap Selection With Tag"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 111.0,
+		"history":
+		[
+			"os.system(\"cls\")",
+			"import os",
+			"clear()",
+			"clear",
+			"python",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/helpers",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/mailers",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/active_record_example",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/admin",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example"
+	],
+	"file_history":
+	[
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/call_back_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/return_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/built_in_method_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/layout_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/render_partials_example.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/link_to_example.html.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/show.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/built_in_view_method.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/custom_field_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/logic_in_view_example.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/show.xml.builder",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/index.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/pagination_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/_form.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/new.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/form_helper_example.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/people/show.json.jbuilder",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/people/_form.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/people/index.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/json_example.json.jbuilder",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/device_detect_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/dirty_object_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/unstructed_data_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/model_observer_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/transaction_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/strong_params_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/people_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/action_filter_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/events_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/exception_handling_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/event_states_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/welcome_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/welcome/index.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/render_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/jobs.ruby.tw-master/jobs.ruby.tw-master/app/controllers/jobs_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/jobs.ruby.tw-master/jobs.ruby.tw-master/app/controllers/pages_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/jobs.ruby.tw-master/jobs.ruby.tw-master/app/controllers/application_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/http_basic_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/time_helper_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/forms_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/rake_task_example.txt",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/helpers/view_helper_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/routes.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/lib/extension_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/locales/en.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/locales/i18n_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/locales/timezone_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/locales/i18n_example",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/event_attendees_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/person.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/location.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/scope_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/helpers/welcome_helper.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/helpers/people_helper.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/sti_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/relation_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/group.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/spec/spec_helper.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/spec/example_rspec.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/active_record_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/active_record_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/validation_example.rb",
+		"/C/Users/kittolau/Desktop/software/Computer Utility Related/Text Editor/Sublime Text Build 3065 x64/Data/Packages/User/Preferences.sublime-settings",
+		"/C/Users/kittolau/Desktop/software/Computer Utility Related/Text Editor/Sublime Text Build 3065 x64/Data/Packages/Default/Preferences.sublime-settings",
+		"/C/Users/kittolau/Desktop/software/Computer Utility Related/Text Editor/Sublime Text Build 3065 x64/Data/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/project.sublime-project",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/bin/spring",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/config/secrets.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/.idea/scopes/scope_settings.xml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/config/initializers/session_store.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150110082940_remove_column.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150110082026_add_user_id_post_source_id_to_user_post_sharing_ships.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150110074640_add_user_id_to_post_sources.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150110073728_add_post_id_users_id_to_comments.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150108104128_add_post_source_id_toposts.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150108100134_add_composite_index_to_table.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150108091912_add_index_to_tables.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106062110_create_post_sources.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106061421_create_comments.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106123915_add_title_to_posts.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150108101116_change_text_context_to_text.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106152557_change_users_id_in_posts.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/config/database.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106070141_add_users_references_to_posts.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106063934_create_user_post_source_following_ships.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106062006_create_user_post_sharing_ships.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106061558_create_posts.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/buzzviz/db/migrate/20150106061005_create_users.rb",
+		"/C/Users/kittolau/Desktop/project/personal/pixiv_util/master/content_script.js",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/spec/models/mock_example_spec.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/active_record_example_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/spec/models/example_spec.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/spec/Views/view_example.erb_spec.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/spec/models/mock_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/spec/fixtures/examples.yaml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/assets/javascripts/application.js",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/environments/development.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/mailers/mailer_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/lib/tasks/exampleTask.rake",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/active_record_example/example.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/locales/ja.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/locales/zh-CN.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/locales/zh-HK.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/locales/zh-TW.yml",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/active_record_example/ajax_example.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/models/active_record_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/db/migrate/20141231093805_db_migration_example.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/config/routes.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/welcome_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/event_locations/new.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/events_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/admin/events_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/index.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/_form.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/models/event.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/show.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/dashboard.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/event_states_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/event_locations/show.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/new.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/event_locations/edit.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/events/edit.html.erb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/helpers/events_helper.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/models/group.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/event_locations_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/models/category.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/controllers/event_attendees_controller.rb",
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/demo1/app/views/event_attendees/index.html.erb"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"-",
+			" ",
+			"create",
+			"   ",
+			"  ",
+			"posts",
+			"item",
+			"\",",
+			"    ",
+			")",
+			"(",
+			"    \"post_id\"\n    \"post_published_by_user_id\"\n    \"post_score\"\n    \"post_type\"\n    \"post_created_time\"\n    \"post_updated_time\"\n    \n    \"post_external_site\"\n    \"post_title\n    \"post_text_content\"\n\n    \"post_post_source_id\"",
+			"    ",
+			"= scrapy.Field()",
+			"counter",
+			"config.action_mailer.delivery_method",
+			"segs",
+			"ribbon-green",
+			"$string",
+			"webkit",
+			"transition",
+			"@",
+			"@transition",
+			".",
+			"@endColor",
+			"@startColor",
+			"@topleft",
+			"@bottomleft",
+			"@bottomright",
+			"@topright",
+			"@radius",
+			"@string",
+			"@alpha",
+			"@spread",
+			"@blur",
+			"@y",
+			"@x",
+			"@string",
+			"str",
+			"=======================================",
+			"f",
+			"    padding-left: 25%; }\n\n  .wrapper {\n    padding-right: 3%; } }\n.debug-grids {\n  text-align: center;\n  cursor: default;\n  *zoom: 1; }\n  .debug-grids:after {\n    content: \".\";\n    display: block;\n    height: 0;\n    clear: both;\n    visibility: hidden; }",
+			"content",
+			";",
+			"content",
+			";",
+			"awfaw\nfawf\naw\nfont: aw;",
+			"script",
+			"js",
+			"div",
+			"        <div class=\"js-header\"></div>\n        <div class=\"js-introduction\"></div>\n        <div class=\"js-problems\"></div>\n        <div class=\"js-object\"></div>\n        <div class=\"js-module\"></div>\n        <div class=\"js-look\"></div>\n        <div class=\"js-inheritance\"></div>\n        <div class=\"js-classname\"></div>\n        <div class=\"js-codestyle\"></div>\n        <div class=\"js-sass\"></div>\n        <div class=\"js-structure\"></div>\n        <div class=\"js-responsive\"></div>\n        <div class=\"js-grids\"></div>\n        <div class=\"js-who-use-it\"></div>",
+			"div",
+			">\n",
+			"<div class=\"js-header\"></div>\n        <div class=\"js-introduction\"></div>\n        <div class=\"js-problems\"></div>\n        <div class=\"js-object\"></div>\n        <div class=\"js-module\"></div>\n        <div class=\"js-look\"></div>\n        <div class=\"js-inheritance\"></div>\n        <div class=\"js-classname\"></div>\n        <div class=\"js-codestyle\"></div>\n        <div class=\"js-sass\"></div>\n        <div class=\"js-structure\"></div>\n        <div class=\"js-responsive\"></div>\n        <div class=\"js-grids\"></div>\n        <div class=\"js-who-use-it\"></div>",
+			"this",
+			"message",
+			"CodeGenerator",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"buffer",
+			"Buffer",
+			"container",
+			"{\n",
+			"container",
+			"left",
+			"width",
+			"\n  .wrapper {\n    padding-right: 3%; } }\n.debug-grids {\n  text-align: center;\n  cursor: default;\n  *zoom: 1; }\n  .debug-grids:after {\n    content: \".\";\n    display: block;\n    height: 0;\n    clear: both;\n    visibility: hidden; }\n  .debug-grids .inner-col {\n    background-color: rgba(255, 255, 255, 0.1);\n    border: 1px solid rgba(255, 255, 255, 0.1);\n    margin: 0",
+			"block",
+			"left",
+			"     \n",
+			"center",
+			"block",
+			"label",
+			";\n",
+			"title",
+			";\n",
+			"and",
+			"margin",
+			"inline",
+			"block"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/call_back_example.rb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1446,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"BracketHighlighterBusy": false,
+							"bh_regions":
+							[
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
+								"bh_default",
+								"bh_default_center",
+								"bh_default_open",
+								"bh_default_close",
+								"bh_default_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
+								"bh_angle",
+								"bh_angle_center",
+								"bh_angle_open",
+								"bh_angle_close",
+								"bh_angle_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content"
+							],
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.356206557519,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 66.0
+	},
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"index",
+				"app\\views\\events\\index.html.erb"
+			],
+			[
+				"new",
+				"app\\views\\events\\new.html.erb"
+			],
+			[
+				"route",
+				"config\\routes.rb"
+			],
+			[
+				"box",
+				"mixin\\_box-shadow.scss"
+			],
+			[
+				"",
+				"base\\_all.scss"
+			],
+			[
+				"var",
+				"base\\_vars.scss"
+			],
+			[
+				"div",
+				"mixin\\_div.scss"
+			],
+			[
+				"border",
+				"mixin\\_border.scss"
+			],
+			[
+				"transi",
+				"mixin\\_transition.scss"
+			],
+			[
+				"main",
+				"main.scss"
+			],
+			[
+				"navi",
+				"component\\_navigation.scss"
+			],
+			[
+				"gra",
+				"mixin\\_gradient.scss"
+			],
+			[
+				"center",
+				"mixin\\_center.scss"
+			],
+			[
+				"box-",
+				"mixin\\_box-shadow.scss"
+			],
+			[
+				"body",
+				"element\\_body.scss"
+			],
+			[
+				"mixin",
+				"mixin\\mixin.scss"
+			],
+			[
+				"application",
+				"css\\application.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"selected_items":
+		[
+			[
+				"",
+				"opacity"
+			]
+		],
+		"width": 378.0
+	},
+	"selected_group": 1,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 356.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

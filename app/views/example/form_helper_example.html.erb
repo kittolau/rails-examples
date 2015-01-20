@@ -1,0 +1,253 @@
+<%= form_for @location, :url => event_location_path(@event), :method => :patch do |f| %>
+<%#form_for @event, :url => { :controller => 'events', :action => 'create' } do |f| %>
+<%# form_for @event, :url => events_path do |f| %>
+<%# form_for @event do |f| %>
+<%= form_for @person do |f| %>
+
+  <!-- relationship field -->
+    <!-- select -->
+      <%= f.collection_select(:category_id, Category.all, :id, :name) %>
+
+    <!-- check box -->
+      <!-- since @event has groups assoication, so it can use group_ids to assign association-->
+      <%= f.collection_check_boxes(:group_ids, Group.all, :id, :name) %>
+
+      <!-- you can also customize the output -->
+      <%= collection_check_boxes(:post, :author_ids, Author.all, :id, :name_with_initial) do |b| %>
+        b.label(class: "check_box") { b.check_box(class: "check_box") }
+      <%end %>
+
+      <%= collection_check_boxes(:post, :author_ids, Author.all, :id, :name_with_initial) do |b| %>
+         b.label(:"data-value" => b.value) { b.check_box + b.text }
+      <% end%>
+
+    <!-- radio button -->
+      <%= collection_radio_buttons(:post, :author_id, Author.all, :id, :name_with_initial) %>
+
+  <!-- Common field -->
+    <!-- check box -->
+      check_box("eula", "accepted", { class: 'eula_check' }, "yes", "no")
+      # => <input name="eula[accepted]" type="hidden" value="no" />
+      #    <input type="checkbox" class="eula_check" id="eula_accepted" name="eula[accepted]" value="yes" />
+
+      <%= f.check_box :first_name %>
+
+    <!-- radio field -->
+      # Let's say that @post.category returns "rails":
+      radio_button("post", "category", "rails")
+      radio_button("post", "category", "java")
+      # => <input type="radio" id="post_category_rails" name="post[category]" value="rails" checked="checked" />
+      #    <input type="radio" id="post_category_java" name="post[category]" value="java" />
+
+      radio_button("user", "receive_newsletter", "yes")
+      radio_button("user", "receive_newsletter", "no" , checked: true )
+      # => <input type="radio" id="user_receive_newsletter_yes" name="user[receive_newsletter]" value="yes" />
+      #    <input type="radio" id="user_receive_newsletter_no" name="user[receive_newsletter]" value="no" checked="checked" />
+
+    <!-- email -->
+      email_field("user", "address")
+      # => <input id="user_address" name="user[address]" type="email" />
+
+      <%= f.email_field :last_name %>
+
+    <!-- file field -->
+      file_field(:user, :avatar)
+      # => <input type="file" id="user_avatar" name="user[avatar]" />
+
+      file_field(:post, :image, :multiple => true)
+      # => <input type="file" id="post_image" name="post[image]" multiple="true" />
+
+      file_field(:post, :attached, accept: 'text/html')
+      # => <input accept="text/html" type="file" id="post_attached" name="post[attached]" />
+
+      file_field(:post, :image, accept: 'image/png,image/gif,image/jpeg')
+      # => <input type="file" id="post_image" name="post[image]" accept="image/png,image/gif,image/jpeg" />
+
+      file_field(:attachment, :file, class: 'file_input')
+      # => <input type="file" id="attachment_file" name="attachment[file]" class="file_input" />
+
+      <%= f.file_field :last_name %>
+
+    <!-- hidden field -->
+      hidden_field(:signup, :pass_confirm)
+      # => <input type="hidden" id="signup_pass_confirm" name="signup[pass_confirm]" value="#{@signup.pass_confirm}" />
+
+      hidden_field(:post, :tag_list)
+      # => <input type="hidden" id="post_tag_list" name="post[tag_list]" value="#{@post.tag_list}" />
+
+      hidden_field(:user, :token)
+      # => <input type="hidden" id="user_token" name="user[token]" value="#{@user.token}" />
+
+      <%= f.hidden_field :last_name %>
+
+    <!-- password field -->
+      password_field(:login, :pass, size: 20)
+      # => <input type="password" id="login_pass" name="login[pass]" size="20" />
+
+      password_field(:account, :secret, class: "form_input", value: @account.secret)
+      # => <input type="password" id="account_secret" name="account[secret]" value="#{@account.secret}" class="form_input" />
+
+      password_field(:user, :password, onchange: "if ($('#user_password').val().length > 30) { alert('Your password needs to be shorter!'); }")
+      # => <input type="password" id="user_password" name="user[password]" onchange="if ($('#user_password').val().length > 30) { alert('Your password needs to be shorter!'); }"/>
+
+      password_field(:account, :pin, size: 20, class: 'form_input')
+      # => <input type="password" id="account_pin" name="account[pin]" size="20" class="form_input" />
+
+      <%= f.password_field :first_name %>
+
+    <!-- number field -->
+      <%= f.number_field :last_name %>
+
+    <!-- range field -->
+      <%= f.range_field :first_name %>
+
+    <!-- text area -->
+      text_area(:post, :body, cols: 20, rows: 40)
+      # => <textarea cols="20" rows="40" id="post_body" name="post[body]">
+      #      #{@post.body}
+      #    </textarea>
+
+      text_area(:comment, :text, size: "20x30")
+      # => <textarea cols="20" rows="30" id="comment_text" name="comment[text]">
+      #      #{@comment.text}
+      #    </textarea>
+
+      text_area(:application, :notes, cols: 40, rows: 15, class: 'app_input')
+      # => <textarea cols="40" rows="15" id="application_notes" name="application[notes]" class="app_input">
+      #      #{@application.notes}
+      #    </textarea>
+
+      text_area(:entry, :body, size: "20x20", disabled: 'disabled')
+      # => <textarea cols="20" rows="20" id="entry_body" name="entry[body]" disabled="disabled">
+      #      #{@entry.body}
+      #    </textarea>
+
+      <%= f.text_area :first_name %>
+
+    <!-- text field -->
+      text_field(:post, :title, size: 20)
+      # => <input type="text" id="post_title" name="post[title]" size="20" value="#{@post.title}" />
+
+      text_field(:post, :title, class: "create_input")
+      # => <input type="text" id="post_title" name="post[title]" value="#{@post.title}" class="create_input" />
+
+      text_field(:session, :user, onchange: "if ($('#session_user').val() === 'admin') { alert('Your login cannot be admin!'); }")
+      # => <input type="text" id="session_user" name="session[user]" value="#{@session.user}" onchange="if ($('#session_user').val() === 'admin') { alert('Your login cannot be admin!'); }"/>
+
+      text_field(:snippet, :code, size: 20, class: 'code_input')
+      # => <input type="text" id="snippet_code" name="snippet[code]" size="20" value="#{@snippet.code}" class="code_input" />
+
+      <%= f.text_field :last_name %>
+
+    <!-- url field -->
+      url_field("user", "homepage")
+      # => <input id="user_homepage" name="user[homepage]" type="url" />
+
+      <%= f.url_field :first_name %>
+
+    <!-- submit -->
+      <%= f.submit %>
+
+    <!-- date -->
+      <%= f.date_select :birthday %>
+
+    <!-- label -->
+      <!-- I18n, Localization can also be based purely on the translation of the attribute-name (if you are using ActiveRecord):-->
+      activerecord:
+        attributes:
+          post:
+            cost: "Total cost"
+      label(:post, :cost)
+      # => <label for="post_cost">Total cost</label>
+
+      label(:post, :title, "A short title")
+      # => <label for="post_title">A short title</label>
+
+      label(:post, :title, "A short title", class: "title_label")
+      # => <label for="post_title" class="title_label">A short title</label>
+
+      label(:post, :privacy, "Public Post", value: "public")
+      # => <label for="post_privacy_public">Public Post</label>
+
+      label(:post, :terms) do
+        'Accept <a href="/terms">Terms</a>.'.html_safe
+      end
+      # => <label for="post_terms">Accept <a href="/terms">Terms</a>.</label>
+
+<% end %>
+
+<!-- For Nested Attribute-->
+  <!-- One to one -->
+    <!--
+        class Person < ActiveRecord::Base
+          has_one :address
+          accepts_nested_attributes_for :address, allow_destroy: true
+        end
+    -->
+    <%= form_for @person do |person_form| %>
+      <%= person_form.fields_for :address, @person.address do |address_fields| %>
+        <!-- the submitted value will appear in the controller as params[:address][:street] -->
+        Street  : <%= address_fields.text_field :street %>
+        Zip code: <%= address_fields.text_field :zip_code %>
+        <!-- if allow_destory is true, then you can do-->
+        Delete: <%= address_fields.check_box :_destroy %>
+      <% end %>
+    <% end %>
+<!-- one to many-->
+  <!--
+    class Person < ActiveRecord::Base
+      has_many :projects
+      accepts_nested_attributes_for :projects, allow_destroy: true
+    end
+  -->
+  <!--   Note that #fields_for will automatically generate a hidden field to store the ID of the record. There are circumstances where this hidden field is not needed and you can pass include_id: false to prevent #fields_for from rendering it automatically. -->
+  <!-- example 1, #fields_for call will be repeated for each instance in the collection-->
+    <%= form_for @person do |person_form| %>
+      <%= person_form.fields_for :projects do |project_fields| %>
+        <% if project_fields.object.active? %>
+          Name: <%= project_fields.text_field :name %>
+          Delete: <%= project_fields.check_box :_destroy %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <!-- example 2, It's also possible to specify the instance to be used: -->
+    <%= form_for @person do |person_form| %>
+      <% @person.projects.each do |project| %>
+        <% if project.active? %>
+          <%= person_form.fields_for :projects, project do |project_fields| %>
+            Name: <%= project_fields.text_field :name %>
+          <% end %>
+        <% end %>
+      <% end %>
+    <% end %>
+  <!-- example 3, Or a collection to be used: -->
+  <%= form_for @person do |person_form| %>
+    <%= person_form.fields_for :projects, @active_projects do |project_fields| %>
+      Name: <%= project_fields.text_field :name %>
+     Project #<%= project_fields.index %>
+    <% end %>
+  <% end %>
+
+
+<!-- error display -->
+<% if @person.errors.any? %>
+  <div id="error_explanation">
+    <h2><%= pluralize(@person.errors.count, "error") %> prohibited this person from being saved:</h2>
+
+    <ul>
+    <% @person.errors.full_messages.each do |message| %>
+      <li><%= message %></li>
+    <% end %>
+    </ul>
+  </div>
+<% end %>
+
+<!-- inline error -->
+<%= form_for(@person) do |f| %>
+    <%= f.text_field :name %>
+    <% if @person.errors[:name].presence %>
+        <%= @person.errors[:name].join(", ") %>
+    <% end %>
+
+    <%= f.submit %>
+<% end %>
