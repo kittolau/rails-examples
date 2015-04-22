@@ -12,6 +12,11 @@ class ScopeExample < ActiveRecord::Base
   #Scope Parameters
     scope :newer_than, ->(date) { where('start_date > ?', date) }
 
+  #scope with multiple parameters
+  def self.post_created_within(start_DT,end_DT)
+    where('post_created_time >= ? AND post_created_time <= ?', start_DT.to_sql_date_time,end_DT.to_sql_date_time)
+  end
+
   #scope Chaining
     scope :submitted, -> { where(submitted: true) }
     scope :underutilized, -> { submitted.where('total_hours < 40') }

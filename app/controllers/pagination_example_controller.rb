@@ -9,6 +9,7 @@ class EventsController < ApplicationController
     @events = Event.order(sort_by).page(params[:page]).per(5)
     #@events = Event.all
     #@events = Event.page(params[:page]).per(5)
+    @post_sources = Kaminari.paginate_array(@post_sources).page(params[:page]).per(10)
   end
 end
 

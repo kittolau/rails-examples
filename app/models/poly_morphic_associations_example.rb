@@ -59,3 +59,35 @@ comment.commentable_id => 1
 
 # 也可以透過 commentable 反向回查關連的物件
 comment.commentable => #<Article id: 1, ....>
+
+
+
+
+#Many to Many Polymorphic
+class ItemCountry < ActiveRecord::Base
+  belongs_to :locatable, :polymorphic => true
+  belongs_to :country
+  # fields are :locatable_id, :locatable_type, :country_id
+end
+
+class Title < ActiveRecord::Base
+  has_many :countries, :through => :item_countries, :as => :locatable
+  has_many :item_countries, :as => :locatable
+end
+
+ class Country < ActiveRecord::Base
+   has_many :titles, :through => :item_countries, :source => :locatable, :source_type => 'Title'
+   has_many :item_countries, :foreign_key => :country_id
+ end
+
+ class CreateItemCountryAssociationTable < ActiveRecord::Migration
+   def change
+     create_table :item_countries, :id => false do |t|
+       t.integer :locatable_id
+       t.string  :locatable_type
+       t.integer :country_id
+     end
+     add_index :item_countries, [:locatable_id, :locatable_type, :country_id], :name => 'polymorphic_many_to_many_idx'
+     add_index :item_countries, [:locatable_id, :locatable_type], :name => 'polymorphic_locatable_idx'
+   end
+ end

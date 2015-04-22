@@ -35,11 +35,11 @@ class ActiveRecordExampleController < ActionController::Base
       c13.is_admin.toggle
 
     #delete
-
+      @variable.destroy #callback on deleted object
+      @variable.delete #just call detete in SQL
 
     #query
-      #condition
-        #first, last, all
+      #first, last, all
           c1 = Category.first
           c2 = Category.last
           #如果資料量較多，請不要在正式上線環境中執行.all 把所有資料拿出來，
@@ -51,6 +51,12 @@ class ActiveRecordExampleController < ActionController::Base
           c3 = Category.find(1)
           c4 = Category.find(2)
 
+    #scope
+        #chainable empty scope
+          Category.scoped
+          #rails 4
+          Category.none
+      #condition
         #where
           #where 可以非常彈性的組合出 SQL 查詢，例如：
           c9 = Category.where( :name => 'Ruby', :position => 1 )

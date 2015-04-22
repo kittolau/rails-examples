@@ -2,6 +2,21 @@ Rails.application.routes.draw do
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
+  # _path and _url
+  #resources:
+    #index
+    events_path
+    #show
+    event_path(e)
+    #update
+    edit_event_path
+    #new
+    new_events_path
+    #collection
+    action_name_events_path
+    #member
+    action_name_event_path(e)
+
   #root
     root :to => "welcome#index"
 
@@ -74,6 +89,10 @@ Rails.application.routes.draw do
     #甚至可以限定IP位置：
     constraints(:ip => /(^127.0.0.1$)|(^192.168.[0-9]{1,3}.[0-9]{1,3}$)/) do
         #match "/events/show/:id" => "events#show"
+    end
+
+    scope constraints: ->(request){ request.env['warden'].user.nil? } do
+      resources :photos
     end
 
   #match

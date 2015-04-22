@@ -20,6 +20,8 @@ class RelationExample < ActiveRecord::Base
   # where
     # 這可以加上額外的條件在關聯上，例如
     has_many :paid_attendees, -> { where(:status => "paid") }, :class_name => 'Attendee'
+    #must use scoping function inside ->{ },
+    #NOTICE, includes(:paid_attendees) used with -> { where(:status => "paid").limit(1) } will make limit(1) become useless
 
   # through
     # 透過關聯來建立另一個關聯集合，用於建立"多對多"的關係。
@@ -39,8 +41,8 @@ class RelationExample < ActiveRecord::Base
     # 可以變更Foreign Key的欄位名稱，例如改成user_id：
     has_many :paid_attendees, :class_name => "Attendee", :foreign_key => "user_id"
     # 可以變更用來 join 的 primary key (注意 has_many 也要用一樣的setting)
-    # primary_key 是 belongs_to table的key
-    # foreign_key 是 has_many table的key
+    # primary_key 是 has_many table的key, default id (this is a primary key refering to this relationship)
+    # foreign_key 是 belong_to table的key defaut XXX_id (this is a foreign key refering to this relationship)
     belongs_to :posts, class_name: "Post" , primary_key: "post_id", foreign_key: "post_id"
     has_many :comments, class_name: "Comment", primary_key: "post_id", foreign_key: "post_id"
 

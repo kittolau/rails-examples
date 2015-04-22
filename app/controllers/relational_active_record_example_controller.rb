@@ -49,18 +49,63 @@ class RelationalActiveRecordExampleController < ActionController::Base
         end
         #Note that using joins means if you use user.posts then another query will be performed.
 
+        #more complex join
+        joins(:category, reviews: :user)
+
+        joins("
+          left join
+          (
+            SELECT
+              post_source_id,post_id,post_created_time,text_content
+            FROM
+              buzzviz_development.posts
+            group by
+              post_source_id
+            order by created_at DESC
+          ) as p
+          on p.post_source_id = post_sources.post_source_id
+          ")
+
+        #dynamic subquery
+        subquery = Post
+          .select("posts.users_id,posts.post_source_id,posts.post_created_time,Sum(lc.liked_count) AS user_post_being_liked_count")
+          .joins("
+            INNER JOIN (SELECT *,
+                         Count(upss.post_id) AS liked_count
+                  FROM   user_post_sharing_ships AS upss
+                  GROUP  BY upss.post_id ) AS lc
+              ON posts.post_id = lc.post_id
+            ")
+          .group("posts.users_id")
+          .merge(Post.apply_global_scope(get_global_scope))
+
+        @users = User
+          .includes(:post_sources)
+          .select("users.*, posts.user_post_being_liked_count")
+          .joins("
+            inner join
+            (#{subquery.to_sql}) AS posts
+             ON posts.users_id = users.user_id
+            ")
+          .order(user_post_being_liked_sortable_column+" "+sortable_direction)
+          .page(params[:page])
+          .per(30)
+
         #Also if we want to make use of attributes from posts table then we need to select them.
   # has_many 的集合物件
     #在關聯的集合上，我們有以下方法可以使用：
     e = Event.first
 
     #create relationship
-        e.attendees << Attendee.new
+        #insert promptly
+            e.attendees << Attendee.new
+            #The most important part, however, is that these methods can be called through an association (has_many, etc.) to automatically link the two models.
+            e.attendees.create # .create is equivalent to .new followed by .save. It's just more succinct.
+            e.attendees.create! # .create! is equivalent to .new followed by .save! (throws an error if saving fails). It's also just a wee bit shorter
 
-        #The most important part, however, is that these methods can be called through an association (has_many, etc.) to automatically link the two models.
-        e.attendees.create # .create is equivalent to .new followed by .save. It's just more succinct.
-        e.attendees.create! # .create! is equivalent to .new followed by .save! (throws an error if saving fails). It's also just a wee bit shorter
-        e.attendees.build #.build is mostly an alias for .new
+        #need to save
+            e.attendees.build #.build is mostly an alias for .new
+            e.save
 
         e.attendees.new
     #remove relationship
