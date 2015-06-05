@@ -26,6 +26,4 @@ class DirtyObjectController < ApplicationController
     #什麼時候會用到這個功能呢？通常是在儲存進資料庫前的回呼、驗證或Observer中，
     #你想根據修改了什麼來做些動作，這時候Dirty Objects功能就派上用場了。
   end
-
-
 end

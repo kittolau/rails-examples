@@ -7,7 +7,6 @@ class EventAttendeesController < ApplicationController
 
   def show
     @attendee = @event.attendees.find( params[:id] )
-
   end
 
   def new

@@ -53,4 +53,16 @@
       self.tags = @tag_names.split.map { |name| Tag.where(name: name).first_or_create! }
     end
   end
+
+  def as_json(options = {})
+    super(:methods => [:f_created_at,:f_updated_at])
+  end
+
+  def f_created_at
+    created_at.strftime("%Y-%m-%d %H:%M:%S")
+  end
+
+  def f_updated_at
+    updated_at.strftime("%Y-%m-%d %H:%M:%S")
+  end
  end

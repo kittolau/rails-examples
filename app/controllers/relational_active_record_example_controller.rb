@@ -98,16 +98,30 @@ class RelationalActiveRecordExampleController < ActionController::Base
 
     #create relationship
         #insert promptly
+            #one to many
             e.attendees << Attendee.new
             #The most important part, however, is that these methods can be called through an association (has_many, etc.) to automatically link the two models.
             e.attendees.create # .create is equivalent to .new followed by .save. It's just more succinct.
             e.attendees.create! # .create! is equivalent to .new followed by .save! (throws an error if saving fails). It's also just a wee bit shorter
 
+            #one to one
+            e.owner.create
         #need to save
-            e.attendees.build #.build is mostly an alias for .new
-            e.save
+            #one to many
+            event = e.attendees.build(attr1: 111,attr2: 3) #.build is mostly an alias for .new
+            event.save
 
-        e.attendees.new
+            attendee = e.attendees.new(attr1: 111,attr2: 3)
+            attendee.save
+
+            #one to one
+            event.build_owner()
+            event.save
+
+            event.owner = current_user
+            event.save
+
+
     #remove relationship
         e.attendees.delete_all # The row is simply removed with an SQL DELETE statement on the record's primary key, and no callbacks are executed.
         e.attendees.destroy_all # There's a series of callbacks associated with destroy. If the before_destroy callback return false the action is cancelled and destroy returns false

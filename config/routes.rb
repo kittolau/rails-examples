@@ -51,15 +51,25 @@ Rails.application.routes.draw do
           member do
               get :dashboard
           end
+
+        #match
+          #collection
+          #GET /events/<any_word>
+          get '/:provider' => 'device_authentications#create', :on => :collection
+
+          #member
+          #GET /events/:event_id/<any_word>
+          get '/:provider' => 'device_authentications#create'
     end
 
   #Name space
     #Namespace是Scope的一種特定應用，特別適合例如後台介面，這樣就整組controller、網址path、URL Helper前置名稱`都影響到：
     #如此controller會是Admin::ProjectsController，網址如/admin/projects，而URL Helper如admin_projects_path這樣的形式。
     #get /admin/events
-    namespace :admin do
+    namespace :admin, defaults: {format: 'json'} do
       resources :projects
     end
+    # the default format is used with respond_with function such that the default format will be used
 
   #scope
     #Module參數則可以讓Controller分Module，例如
@@ -93,6 +103,24 @@ Rails.application.routes.draw do
 
     scope constraints: ->(request){ request.env['warden'].user.nil? } do
       resources :photos
+    end
+
+    #limit the resources to be in module v1,
+    #also the ApiConstraints is placed in lib directory, such that the option is passd in
+    require 'api_contstraints'
+    scope module: :v1, constraints: ApiConstraints.new(version: 1, default: true) do
+      resources :products
+    end
+
+    class ApiConstraints
+      def initialize(options)
+        @verison = options[:version]
+        @default = options[:default]
+      end
+
+      def matches?(request)
+        @default || request.headers['Accpet'].include?("application/vnd.example.v#{@version}")
+      end
     end
 
   #match

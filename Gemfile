@@ -1,7 +1,5 @@
 source 'https://rubygems.org'
 
-source 'https://rubygems.org'
-
 #Application Dependencies
 #angular $templateCache using Rails asset pipeline
 gem "angular-rails-templates"
@@ -116,5 +114,4 @@ gem 'spring',        group: :development
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
 

@@ -9,6 +9,15 @@ class ActiveRecordExampleController < ActionController::Base
       Category.create( :name => 'Python', :position => 3 )
       c = Category.create!( :name => 'PHP', :position => 4 )
 
+    #find or create
+      #find existing one or create on
+      ##like User.create(attr:"aaa")
+      b = User.find_or_create_by(attr:"aaa")
+
+      #like User.new(attr:"aaa")
+      b = User.find_or_initialize_by(attr:"aaa")
+      #NOTICE, find() only find id but the above method can be used with other column
+
     #save
       #有無驚嘆號的差別在於validate資料驗證不正確的動作
       a.save #無驚嘆號版本會回傳布林值(true或false)
@@ -50,6 +59,7 @@ class ActiveRecordExampleController < ActionController::Base
           #已知資料的主鍵 ID 的值的話，可以使用 find 方法：
           c3 = Category.find(1)
           c4 = Category.find(2)
+
 
     #scope
         #chainable empty scope

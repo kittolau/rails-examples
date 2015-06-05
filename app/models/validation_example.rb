@@ -46,6 +46,8 @@ class ValidationExample < ActiveRecord::Base
     # 確保唯一
     validates_uniqueness_of :email
     # 檢查資料在資料表中必須唯一。:scope 參數可以設定範圍，例如底下的 :scope => :year 表示，在 Holiday 資料表中，相同 year 的 name 必須唯一。
+
+    #Used to ensure the many_to_many ships being unique
     validates_uniqueness_of :name, :scope => :year
     # 另外還有個參數是 :case_sensitive 預設是 true，表示要區分大小寫。
     validates_uniqueness_of :name, :case_sensitive => :false
@@ -93,7 +95,7 @@ class ValidationExample < ActiveRecord::Base
 
     # if, unless
     # 可以設定只有某些條件下才進行驗證
-    validates_presence_of :description, :if => :normal_user?
+    validates_presence_of :description, :if => :normal_user?, :unless => :another_method
     def normal_user?
         !self.user.try(:admin?)
     end

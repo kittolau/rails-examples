@@ -11,13 +11,19 @@ class EventsController < ApplicationController
       @event = Event.find(params[:id])
   end
 
+  def sortable_column
+    %w[comment_created_time].include?(params[:sort]) ? params[:sort] : "comment_created_time"
+  end
+
+  def sortable_direction
+    %w[asc desc].include?(params[:direction]) ? params[:direction] : "desc"
+  end
+
   def index
     sort_by = (params[:order] == 'name') ? 'name' : 'created_at'
     @events = Event.order(sort_by).page(params[:page]).per(5)
     #@events = Event.all
     #@events = Event.page(params[:page]).per(5)
-
-      
 
     respond_to do |format|
       format.html # index.html.erb
@@ -87,6 +93,6 @@ class EventsController < ApplicationController
   end
 
   def event_params
-    params.require(:event).permit(:name, :description,:category_id, location_attributes: [:name, :_destroy], group_ids: [])
+    params.require(:event).permit(:name, :description,:category_id, location_attributes: [:id, :name, :_destroy], group_ids: [])
   end
 end

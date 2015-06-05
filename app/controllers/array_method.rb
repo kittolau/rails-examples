@@ -2,6 +2,9 @@ class ActiveRecordExampleController < ActionController::Base
   def index
     arr = []
 
+    #include?
+      arr.include? "value"
+
     #any and all
       arr.any?{ |obj| block } # → true or false
       arr.all?{ |obj| block } # → true or false

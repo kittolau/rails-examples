@@ -121,7 +121,7 @@ render :json => { :success => true,
 
   @posts.as_json(
          :only => [:title, :body, :created_at, :tags, :category],
-         :except => [:password]
+         :except => [:password] #Or :password
          :include => [
             :likes => { :only => [:created_at], :include => [:author] },
             :comments => { only => [:created_at, :body], :include => [:author]  },
