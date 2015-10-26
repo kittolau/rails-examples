@@ -1,5 +1,11 @@
 source 'https://rubygems.org'
 
+# i18n for rails date picker
+gem 'rails-i18n'
+
+# Recaptcha
+gem "recaptcha", :require => "recaptcha/rails"
+
 #Application Dependencies
 #angular $templateCache using Rails asset pipeline
 gem "angular-rails-templates"

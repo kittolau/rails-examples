@@ -1,0 +1,12 @@
+zh-HK:
+  activerecord:
+    attributes:
+      <your model name>: # you should rename the file name same as model name,
+       #e.g. User model will be user.yml
+        iphone_color: "外觀顏色"
+        iphone_type: "型號"
+        quantity: "數量"
+        sell_datetime: "放售時間"
+        detail: "聯絡詳細"
+        min_price: "底價"
+        created_at: "創建時間"

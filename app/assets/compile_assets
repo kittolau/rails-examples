@@ -1,0 +1,8 @@
+#put the following in config/environments/production.rb
+
+# In order for serve the compiled assest correctly
+  # you need to precompile the asset in production, the complied content will be located under public folder
+  # RAILS_ENV=production bundle exec rake assets:precompile
+  # then turn the config.serve_static_asset = true, serving the compiled assets under public folder
+  # Although config.assets.compile = true can also work, but this will be very slow since it dynamically compile the assets if it is missing
+  config.serve_static_asset = true

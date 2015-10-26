@@ -48,106 +48,18 @@
 	"buffers":
 	[
 		{
-			"file": "app/controllers/controller response.rb",
+			"file": "app/controllers/restful/restful_controller.rb",
 			"settings":
 			{
-				"buffer_size": 7038,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/models/virtual_attr_example.rb",
-			"settings":
-			{
-				"buffer_size": 1814,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "config/routes.rb",
-			"settings":
-			{
-				"buffer_size": 4998,
+				"buffer_size": 2477,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/rubybasic hash.rb",
+			"file": "app/models/eager_loading_example.rb",
 			"settings":
 			{
-				"buffer_size": 279,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/activerecord relational.rb",
-			"settings":
-			{
-				"buffer_size": 6068,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "db/migrate/20141231093805_db_migration_example.rb",
-			"settings":
-			{
-				"buffer_size": 5748,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "db/migrate/emoji_support.rb",
-			"settings":
-			{
-				"buffer_size": 2770,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/activerecord.rb",
-			"settings":
-			{
-				"buffer_size": 7724,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/strong params.rb",
-			"settings":
-			{
-				"buffer_size": 1415,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/controller cookies.rb",
-			"settings":
-			{
-				"buffer_size": 1298,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/controllers/rubybasic array.rb",
-			"settings":
-			{
-				"buffer_size": 5097,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/models/increment_count.rb",
-			"settings":
-			{
-				"buffer_size": 239,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "app/models/scope_example.rb",
-			"settings":
-			{
-				"buffer_size": 2379,
+				"buffer_size": 479,
 				"line_ending": "Windows"
 			}
 		}
@@ -379,12 +291,66 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/my-rails-example",
-		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/my-rails-example/app",
-		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/my-rails-example/app/models"
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/models",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/views",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/views/example",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/views/layouts",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/views/partial_form_example",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/views/static_pages",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config/deploy/generator",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config/locales",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/db/migrate",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/lib/tasks",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/spec/helpers",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/spec/models",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/spec/Request",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/test/models",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/tmp/cache/assets",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/tmp/cache/assets/development",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/vendor/assets/javascripts",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/vendor/assets/stylesheets"
 	],
 	"file_history":
 	[
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/static page/static_pages_controller.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/static page",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/Gemfile",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/gems/recaptcha.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config/locales/i18n model.yml",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config/locales/zh-TW.yml",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/console command/rake.sh",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/models/counter_cache.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/db/migrate/20141231093805_db_migration_example.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/assets/compile_assets",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/assets/javascripts/events.js.coffee",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/assets/stylesheets/application.css",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller action_filter.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller session.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller headers.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller cookies.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller querystring.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/restful_controller.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller builtin method.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/console command/rails_g.sh",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/config/routes.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/controller response.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/models/virtual_attr_example.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/rubybasic hash.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/activerecord relational.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/db/migrate/emoji_support.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/activerecord.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/strong params.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/controllers/rubybasic array.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/models/increment_count.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/assets/javascripts/active_record_example.js.coffee",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/console command/rake_db.sh",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/console command/rails.sh",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/console command/rails_c.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/railsConsoleExample.rb",
+		"/C/Users/kitto/Desktop/Work/example project/Serverside/Rails/ex-rails/app/models/scope_example.rb",
 		"/C/Users/kittolau/Desktop/exampleCode/Serverside/Rails/example project/demo1/app/controllers/exception handling.rb",
 		"/C/Users/kittolau/Desktop/exampleCode/Serverside/Rails/example project/demo1/app/controllers/ruby basic.rb",
 		"/C/Users/kittolau/Desktop/exampleCode/Serverside/Rails/example project/demo1/app/controllers/timezone.rb",
@@ -476,43 +442,7 @@
 		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/assets/javascripts/infinite-scroll-example.js",
 		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/security_practise_example_controller.rb",
 		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/return_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/render_partials_example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/form_helper_example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/ajax_example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/flash.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/poly_morphic_associations_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/validation_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/scope_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/helper_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/include_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/test/fixtures/active_record_examples.yml",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/bin/spring",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/built_in_method_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/test/controllers/event_attendees_controller_test.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/application_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/flashrb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/initializers/filter_parameter_logging.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/test/fixtures/locations.yml",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/partial_form_example/dashboard.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/config/application.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/test/models/active_record_example_test.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/rake_task_example.txt",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/active_record_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/active_record_example/example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/active_record_example/ajax_example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/concerns/relational_active_record_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/admin/namespace_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/call_back_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/controllers/layout_example_controller.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/link_to_example.html.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/show.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/built_in_view_method.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/models/custom_field_example.rb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/logic_in_view_example.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/show.xml.builder",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/index.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/_form.html.erb",
-		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/events/new.html.erb"
+		"/C/Users/kittolau/Desktop/project/cityu/FYP Project/Vagrant/Project VM/rails/example project/demo1/app/views/example/render_partials_example.html.erb"
 	],
 	"find":
 	{
@@ -530,6 +460,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			", ",
+			" - ",
 			"includes",
 			"scope",
 			"Scope",
@@ -655,8 +587,7 @@
 			";\n",
 			"and",
 			"margin",
-			"inline",
-			"block"
+			"inline"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -674,596 +605,71 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/controllers/controller response.rb",
+					"file": "app/controllers/restful/restful_controller.rb",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 7038,
+						"buffer_size": 2477,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5024,
-								5016
+								2337,
+								2337
 							]
 						],
 						"settings":
 						{
 							"BracketHighlighterBusy": false,
-							"auto_complete": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
 								"bh_unmatched_close",
 								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 8,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "app/models/virtual_attr_example.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1814,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								757,
-								757
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "config/routes.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4998,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2489,
-								2489
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_double_quote",
 								"bh_double_quote_center",
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 12,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "app/controllers/rubybasic hash.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 279,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								267,
-								267
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
+								"bh_round",
+								"bh_round_center",
+								"bh_round_open",
+								"bh_round_close",
+								"bh_round_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "app/controllers/activerecord relational.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 6068,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4806,
-								4806
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
 								"bh_single_quote",
 								"bh_single_quote_center",
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 10,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "db/migrate/20141231093805_db_migration_example.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5748,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5746,
-								5746
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "db/migrate/emoji_support.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2770,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2,
-								2
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_square",
 								"bh_square_center",
 								"bh_square_open",
@@ -1278,132 +684,26 @@
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
-								"bh_regex_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 11,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "app/controllers/activerecord.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 7724,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								869,
-								869
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
+								"bh_regex_content"
 							],
 							"syntax": "Packages/Ruby/Ruby.tmLanguage",
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": -0.0,
-						"translation.y": 1680.0,
+						"translation.y": 691.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 9,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
-					"buffer": 8,
-					"file": "app/controllers/strong params.rb",
-					"semi_transient": false,
+					"buffer": 1,
+					"file": "app/models/eager_loading_example.rb",
+					"semi_transient": true,
 					"settings":
 					{
-						"buffer_size": 1415,
+						"buffer_size": 479,
 						"regions":
 						{
 						},
@@ -1419,227 +719,11 @@
 							"BracketHighlighterBusy": false,
 							"bh_regions":
 							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
 								"bh_c_define",
 								"bh_c_define_center",
 								"bh_c_define_open",
 								"bh_c_define_close",
 								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 9,
-					"file": "app/controllers/controller cookies.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1298,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1292,
-								1292
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 10,
-					"file": "app/controllers/rubybasic array.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5097,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								203,
-								203
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"auto_complete": false,
-							"bh_regions":
-							[
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
 								"bh_unmatched",
 								"bh_unmatched_center",
 								"bh_unmatched_open",
@@ -1650,55 +734,11 @@
 								"bh_double_quote_open",
 								"bh_double_quote_close",
 								"bh_double_quote_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 11,
-					"file": "app/models/increment_count.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 239,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								131,
-								131
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
 								"bh_tag",
 								"bh_tag_center",
 								"bh_tag_open",
 								"bh_tag_close",
 								"bh_tag_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
@@ -1709,16 +749,6 @@
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
@@ -1729,24 +759,25 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close",
 								"bh_single_quote_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_curly",
+								"bh_curly_center",
+								"bh_curly_open",
+								"bh_curly_close",
+								"bh_curly_content",
 								"bh_regex",
 								"bh_regex_center",
 								"bh_regex_open",
 								"bh_regex_close",
 								"bh_regex_content"
 							],
-							"open_with_edit": true,
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -1754,96 +785,12 @@
 					},
 					"stack_index": 0,
 					"type": "text"
-				},
-				{
-					"buffer": 12,
-					"file": "app/models/scope_example.rb",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2379,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								927,
-								927
-							]
-						],
-						"settings":
-						{
-							"BracketHighlighterBusy": false,
-							"bh_regions":
-							[
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content"
-							],
-							"syntax": "Packages/Ruby/Ruby.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
 				}
+			]
+		},
+		{
+			"sheets":
+			[
 			]
 		}
 	],
@@ -1864,11 +811,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.787990196078,
 			1.0
 		],
 		"rows":
@@ -1899,6 +853,14 @@
 		"last_filter": "",
 		"selected_items":
 		[
+			[
+				"counter",
+				"app\\models\\counter_cache.rb"
+			],
+			[
+				"migra",
+				"db\\migrate\\20141231093805_db_migration_example.rb"
+			],
 			[
 				"virtu",
 				"app\\models\\virtual_attr_example.rb"
@@ -1962,10 +924,6 @@
 			[
 				"action",
 				"app\\controllers\\action_filter_example_controller.rb"
-			],
-			[
-				"counter",
-				"app\\models\\concerns\\counter_cache.rb"
 			],
 			[
 				"exce",
@@ -2112,7 +1070,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 478.0,
+	"side_bar_width": 393.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
