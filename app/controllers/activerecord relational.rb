@@ -27,6 +27,9 @@ class RelationalActiveRecordExampleController < ActionController::Base
         User.includes(:posts).where('posts.name = ?', 'example').references(:posts)
         #Note that includes works with "association names" while references needs the "actual table name".
 
+        #Or
+        Event.includes(:category).where( :category => { :position => 1 } )
+
       #Preload
         #Preload loads the association data in a separate query.
         User.preload(:posts).to_a
@@ -91,6 +94,8 @@ class RelationalActiveRecordExampleController < ActionController::Base
           .page(params[:page])
           .per(30)
 
+
+
         #Also if we want to make use of attributes from posts table then we need to select them.
   # has_many 的集合物件
     #在關聯的集合上，我們有以下方法可以使用：
@@ -120,6 +125,18 @@ class RelationalActiveRecordExampleController < ActionController::Base
 
             event.owner = current_user
             event.save
+
+    #find or create relationship
+      authentication_attrs = {provider: provider, uid: uid}
+      @authentication = @user.authentications.where(authentication_attrs).first ||  @user.authentications.build(provider: provider, uid: uid)
+      @authentication.update(auth_token: auth_token, auth_token_expire: token_expire)
+
+    #update relationship's attribute
+        e.attendees.update(attr1: "acb")
+
+        #NOTICE, This wont word
+        e.attendees.attr1 = "acb"
+        e.save
 
 
     #remove relationship

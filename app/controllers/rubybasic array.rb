@@ -1,6 +1,11 @@
 class ActiveRecordExampleController < ActionController::Base
   def index
-    arr = []
+    #array basic op
+      arr = [:cool, "freezing", -10, Object.new]
+      arr = []
+      arr[2]
+      arr[-1]
+      (1..100).to_a
 
     #include?
       arr.include? "value"

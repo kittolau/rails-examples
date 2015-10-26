@@ -31,7 +31,7 @@ class DbMigrationExample < ActiveRecord::Migration
 
   #==================up&down VS change===================
   #這裡怎麼不是用up和down方法？Rails 3.1 版新增了change方法可以很聰明的自動處理大部分down的情況，上述情況的down就是移除catrgories資料表和移除events的category_id欄位，因此就不需要分別寫up和down了。如果Rails無法判斷，會在跑rake db:migrate時提醒你不能用change，需要分開寫up和down。
-  
+
 
   #==================data type========================
   # 資料庫的欄位定義
@@ -167,3 +167,6 @@ class DbMigrationExample < ActiveRecord::Migration
   def change
   end
 end
+
+
+
